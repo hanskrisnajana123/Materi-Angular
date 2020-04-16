@@ -18,10 +18,14 @@ export class AppComponent {
 
   itemArr = [1,2,3,4]
 
-  show : boolean = true
+  show : boolean = false
 
   user = {
     nama : "Adm00n"
+  }
 
+  Pesan = ""
+  KlikButton(){
+    this.Pesan = "Tombol Pressed"
   }
 }
